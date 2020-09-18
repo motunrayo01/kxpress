@@ -11,13 +11,21 @@ class Calulator extends Component {
   render() {
     return (
       <div>
-          <div className="container-fluid calculator">
-              <div className="calc"> 
+        <div className="container-fluid calculator">
+        <div className="row one">
+                    <div className="col 12">
+                     < img src="https://res.cloudinary.com/morayo/image/upload/v1600466590/kxpress_bp8oja.png"  alt="fig" input type="text" />
+                    </div>
+                  </div>
+          
+            <div className="row">
+              <div className="calc col"> 
                 <h3>Shipping Calculator</h3>
                 <p>Using state and LGA details provided by the customer to show the shipping rates and estimates saves you and your customers valuable time.</p>
               </div>
+              </div>
               <div className="row">
-                  <div className="col-4 calculator1">
+                  <div className="col-6-lg calculator1">
                   <Form>
                       <option>From</option>
                     <Row>
@@ -29,44 +37,201 @@ class Calulator extends Component {
                         <Form.Control placeholder="Last name" />
                         </Col>
                         </Row>
-                        <option>To</option>
+
                         <Row>
-                            <Col>
-                            <Form.Control placeholder="First name" />
+                          <Col className="m my-3">
+                            <Form.Group controlId="exampleForm.SelectCustom">
+                            <Form.Label>To</Form.Label>
+                            <Form.Control as="select" custom>
+                            <option value="Abia">
+                                                Abia
+                                            </option>
+                                            
+                                            <option value="Abuja">
+                                                Abuja
+                                            </option>
+                                            
+                                            <option value="Adamawa">
+                                                Adamawa
+                                            </option>
+                                            
+                                            <option value="Akwa Ibom">
+                                                Akwa Ibom
+                                            </option>
+                                            
+                                            <option value="Anambra">
+                                                Anambra
+                                            </option>
+                                            
+                                            <option value="Bauchi">
+                                                Bauchi
+                                            </option>
+                                            
+                                            <option value="Bayelsa">
+                                                Bayelsa
+                                            </option>
+                                            
+                                            <option value="Benue">
+                                                Benue
+                                            </option>
+                                            
+                                            <option value="Borno">
+                                                Borno
+                                            </option>
+                                            
+                                            <option value="Cross River">
+                                                Cross River
+                                            </option>
+                                            
+                                            <option value="Delta">
+                                                Delta
+                                            </option>
+                                            
+                                            <option value="Ebonyi">
+                                                Ebonyi
+                                            </option>
+                                            
+                                            <option value="Edo">
+                                                Edo
+                                            </option>
+                                            
+                                            <option value="Ekiti">
+                                                Ekiti
+                                            </option>
+                                            
+                                            <option value="Enugu">
+                                                Enugu
+                                            </option>
+                                            
+                                            <option value="Gombe">
+                                                Gombe
+                                            </option>
+                                            
+                                            <option value="Imo">
+                                                Imo
+                                            </option>
+                                            
+                                            <option value="Jigawa">
+                                                Jigawa
+                                            </option>
+                                            
+                                            <option value="Kaduna">
+                                                Kaduna
+                                            </option>
+                                            
+                                            <option value="Kano">
+                                                Kano
+                                            </option>
+                                            
+                                            <option value="Katsina">
+                                                Katsina
+                                            </option>
+                                            
+                                            <option value='Kebbi'>
+                                                Kebbi
+                                            </option>
+                                            
+                                            <option value='Kogi'>
+                                                Kogi
+                                            </option>
+                                            
+                                            <option value='Kwara'>
+                                                Kwara
+                                            </option>
+                                            
+                                            <option value='Lagos'>
+                                                Lagos
+                                            </option>
+                                            
+                                            <option value='Nasarawa'>
+                                                Nasarawa
+                                            </option>
+                                            
+                                            <option value='Niger'>
+                                                Niger
+                                            </option>
+                                            
+                                            <option value='Ogun'>
+                                                Ogun
+                                            </option>
+                                            
+                                            <option value='Ondo'>
+                                                Ondo
+                                            </option>
+                                            
+                                            <option value='Osun'>
+                                                Osun
+                                            </option>
+                                            
+                                            <option value='Oyo'>
+                                                Oyo
+                                            </option>
+                                            
+                                            <option value='Plateau'>
+                                                Plateau
+                                            </option>
+                                            
+                                            <option value='Rivers'>
+                                                Rivers
+                                            </option>
+                                            
+                                            <option value='Sokoto'>
+                                                Sokoto
+                                            </option>
+                                            
+                                            <option value='Taraba'>
+                                                Taraba
+                                            </option>
+                                            
+                                            <option value='Yobe'>
+                                                Yobe
+                                            </option>
+                                            
+                                            <option value="Zamfara">
+                                                Zamfara
+                                          </option>
+                            </Form.Control>
+                          </Form.Group>
+                          </Col> 
+                                          <Col className="m my-5">
+                                        
+                                          <Form.Control as="select" custom>
+                                              <option value="Abia">
+                                                  Abia
+                                                </option>
+                                            </Form.Control>
+                                        </Col>
+                         </Row>
+                          
+                           
+                        <Row  >
+                            <Col >
+                            <Form.Group controlId="exampleForm.SelectCustomSizeSm">
+                            <Form.Label>Weight(Kg) </Form.Label><br/>
+                          
+                                        <input type="number" class="from-select" placeholder="0.000" name="weight"
+                                            min="0.001" max="70" required />
+                           
+                          </Form.Group>
+                            </Col>
                             
-                            </Col>
-                            <Col>
-                            <Form.Control placeholder="Last name" />
-                            </Col>
-                        </Row>
-                        <option>Weight(Kg)</option>     
-                        <Row>
-                            <Col>
-                            <Form.Control placeholder="First name" as="select">
-                            <option>1</option>
-                                <option>2</option>
-                                <option>3</option>
-                                <option>4</option>
-                                <option>5</option>
-                                </Form.Control>
-                            
-                            </Col>
-                            <Col>
+                            <Col className="m my-3"> 
                             <Button variant="success" type="submit"> Calculate Rate </Button>
                             </Col>
-                        </Row>
+                            </Row>
                    
                     </Form>
 
                       
                   </div>
-                  <div className="col-3 calculator2 ">
+                  <div className="col-6-lg calculator2 ">
                       <h1> ₦0.00</h1>
                       <p>Estimated Shipping Fee</p>
                       <div className="alert alert-danger" role="alert">
                           <img src="https://kxpress.ng/img/caution-1.svg" alt="warning"/> <p>Note: The above is an estimate, actual charges may vary</p></div>
                       </div>
                   </div>
+                  
               </div>
              
           </div>

@@ -4,19 +4,19 @@ body {
   box-sizing: border-box;
   font-family: sans-serif;
   background-color: #fff8ee;
-  height: 100vh;
+ 
 }
 .icon{
-  
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   position: fixed;
   height: 10vh;
+  width: 100vw;
 }
 .icon img{
   
-  margin-left: 10rem;
+  margin-left: 7rem;
 }
 
 .connecting{
@@ -33,19 +33,26 @@ body {
 }
 
 .body{
-  margin-left: 10rem;
-  width: 80vw;
-  columns: #353434;
+  margin-left: 7rem;
+ 
+  color: #353434;
 }
-.body h2{
-  color:#080808;
-}
+
 .body p{
   color:#5f5d5d;
   font-size: 1rem;
 }
 .body img{
   width: 30vw;
+}
+.one input{
+  width: 20vw;
+  height: 60px;
+  margin-left:30rem ;
+  margin-bottom: 0rem;
+  overflow: visible;
+  
+ 
 }
 .calculator{
   border: 0.1px solid #720d42;
@@ -58,12 +65,14 @@ body {
   color: #fcfcfc;
   
    text-align: center;
-   margin-left: 2rem;
-  padding: 5rem;
+   margin-left: 1rem;
+  padding: 2rem;
   font-size: 1rem;
+  margin-right: 2rem;
   
     
 }
+
 .calculator p{
   color:#e2ded9;
   font-size: 0.9rem;
@@ -71,8 +80,8 @@ body {
 .calculator1{
   margin-top: 4rem;
   height: 50vh;
-  
-  margin-left: 10rem;
+ 
+  margin-left: 7rem;
   margin-bottom: 5rem;
   background: #fcfcfc;
   font-size: 1rem;
@@ -99,6 +108,9 @@ body {
   color: #3d3c3c;
   font-size: 1rem;
 } 
+form.control{
+  width: 30rem;
+}
 
 .alert img{
   float: left;
@@ -125,7 +137,7 @@ body {
   
 }
 .delivery{
-  background: #f3f3f3;
+  background: #f7f4f4;
   height: 80vh;
   margin-top: 0px;
   columns: #252525;;
@@ -145,3 +157,311 @@ body {
 .images img {
   margin-left: 2rem;
 }
+
+.Nation{
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.08);
+  background-color: #f7f4f4;
+  padding: 5rem;
+  height: 50vh;
+}
+.nation{
+  margin-left: 7rem;
+  width: 80vw;
+  columns: #353434;
+}
+.Nation Button{
+  color: #f84ca2;
+  background: #f7f4f4;
+  border-color: #f84ca2;
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+
+.nation h2{
+  margin-top: 5rem;
+  color:#080808;
+}
+.nation p{
+  color:#5f5d5d;
+  font-size: 1rem;
+}
+.nation img{
+  width: 30vw;
+  height: 30vh;
+}
+.footer{
+  background-color: #383636;
+  padding: 1rem;
+  height: 20vh;
+  width: 100vw;
+  
+
+}
+.footer1{
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.08);
+  background-color: #f8f8f8;
+  height: 8vh;
+  
+}
+.footer li{
+  display: inline;
+  color:#e2ded9;
+  font-size: 0.5rem;
+  margin: 0rem;
+  padding: 1rem;
+  margin-left: 0rem;
+  
+}
+
+.footer a{
+  text-decoration: none;
+  color: #e2ded9;
+}
+a:hover{
+  background-color: none;
+  text-decoration: none;
+  
+}
+.l p{
+  margin-left: 0rem;
+  color: #e2ded9;
+  font-size: 0.7rem;
+}
+.copyright{
+  color: #6d6d6d;
+  align-content: center;
+  font-size: 0.7rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width:500px){
+  .icon{
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    height: 10vh;
+  }
+  .icon img{
+    
+    margin-left: 2rem;
+  }
+  
+  .connecting{
+   
+    background-color: #fff8ee;
+    padding: 5rem;
+  }
+  .icon Button{
+    color: #f84ca2;
+    background: #fff8ee;
+    border-color: #f84ca2;
+    margin-right: 2rem;
+    margin-left: 2rem;
+  }
+  .body{
+    margin-left: 2rem;
+   
+    color: #353434;
+  }
+  
+  .body p{
+    color:#5f5d5d;
+    font-size: 1rem;
+  }
+  .body img{
+    width: 30vw;
+  }
+  .calculator{
+    border: 0.1px solid #720d42;
+      height: 200vh;
+      
+      background: #940a51;
+      outline: none;
+  }
+  .calc{
+    color: #fcfcfc;
+    
+     text-align: center;
+     margin-left: 1rem;
+    padding: 4rem;
+    font-size: 1rem;
+   
+      
+  }
+  .calculator p{
+    color:#e2ded9;
+    font-size: 0.9rem;
+  }
+  .calculator1{
+    margin-top: 1rem;
+    height: 50vh;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 5rem;
+    background: #fcfcfc;
+    font-size: 1rem;
+    padding: 3rem 3rem 6rem 6rem;
+    
+  
+  }
+  .calculator2{
+    margin-top: 1rem;
+    height: 50vh;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 5rem;
+    background: #fcfcfc;
+    font-size: 1rem;
+    text-align: center;
+  
+  }
+  .calculator2 h1{
+    margin-top: 5rem;
+    font-size: 2rem;
+  } 
+  .calculator2 p{
+    color: #3d3c3c;
+    font-size: 1rem;
+  } 
+  
+  .alert img{
+    float: left;
+  }
+  .alert p{
+    font-size: 0.6rem;
+  }
+  .location{
+    background: #720d42;
+    height: 100vh;
+    margin-top: 0px;
+    color:#e2ded9;
+  }
+  .location1{
+    margin-left: 1rem;
+   
+    font-size: 0.8rem;
+    text-align: center;
+  
+  }
+  .state{
+    line-height: 0.8rem;
+    font-size: 0.7rem;
+    
+  }
+  .delivery{
+    background: #ffffff;
+    height: 150vh;
+    margin-top: 1px;
+    color: #252525;;
+  }
+  .delivery1{
+    line-height: 1rem;
+    font-size: 0.5rem;
+    text-align: center;
+    margin-top: 3rem;
+    
+  }
+  .images{
+    line-height: 1rem;
+    font-size: 0.8rem;
+    text-align: center;
+    
+  }
+  .images img {
+ 
+    margin-top: 3rem;
+  }
+  
+  .Nation{
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.08);
+    background-color: #ffffff;
+    padding: 5rem;
+    height: 70vh;
+    flex-wrap: wrap;
+  }
+  .nation{
+    margin-left: 1rem;
+    width: 50vw;
+    columns: #353434;
+  }
+  .nation h2{
+    margin-top: 1rem;
+    color:#080808;
+  }
+  .nation p{
+    color:#5f5d5d;
+    font-size: 1rem;
+    
+  }
+  .Nation Button{
+    color: #f84ca2;
+    background: #f7f4f4;
+    border-color: #f84ca2;
+    margin-right: 2rem;
+    margin-left: 2rem;
+  }
+  .nation img{
+    width: 30vw;
+    height: 30vh;
+    text-align: center;
+  }
+  
+}
+.footer1{
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.08);
+  background-color: #f8f8f8;
+ 
+  height: 5vh;
+  flex-wrap: wrap;
+}
+.footer{
+  background-color: #383636;
+  padding: 1rem;
+  height: 30vh;
+  width: 100vw;
+  
+
+}
+.footer1{
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.08);
+  background-color: #f8f8f8;
+  height: 2vh;
+  
+}
+.footer li{
+  display: inline;
+  color:#e2ded9;
+  font-size: 0.5rem;
+  
+}
+
+.footer a{
+  text-decoration: none;
+  color: #e2ded9;
+}
+a:hover{
+  background-color: none;
+  text-decoration: none;
+  
+}
+.l p{
+  margin-left: 0rem;
+  color: #e2ded9;
+  font-size: 0.5rem;
+}
+.copyright{
+  color: #6d6d6d;
+  align-content: center;
+  font-size: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+  
