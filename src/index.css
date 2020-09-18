@@ -418,14 +418,14 @@ a:hover{
   background-color: #f8f8f8;
  
   height: 5vh;
-  flex-wrap: wrap;
+  
 }
 .footer{
   background-color: #383636;
   padding: 2rem;
   height: 30vh;
   width: 100vw;
-  margin: 1rem;
+  
   
 
 }
