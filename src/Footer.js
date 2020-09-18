@@ -17,14 +17,14 @@ class Footer extends Component {
                 <div className="container-fluid footer">
             <div className="container ">
               <div className="row foot">
-                  <div className="col-3 ">
-                     <img src="https://kxpress.ng/img/groups-38.svg" alt="logo"/>
+                  <div className="col-3 i">
+                     <img src="https://kxpress.ng/img/groups-38.svg" alt="logo" />
                     </div>
                      <div className="col-3 l">
                   <h4><Link to='/'> Contact us</Link></h4>
                   <p>enquiries@kxpress.ng <br/>0909 2996 010</p>
                   </div>
-                  <div className="col-6 ">
+                  <div className="col-6 socialicon">
                 <ul>
                   <li><Link to='/'> Location</Link></li>   
                   <li><Link to='/'> Privacy</Link></li>   
