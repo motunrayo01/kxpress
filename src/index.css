@@ -13,6 +13,7 @@ body {
   position: fixed;
   height: 10vh;
   width: 100vw;
+  
 }
 .icon img{
   
@@ -305,7 +306,7 @@ a:hover{
     margin-bottom: 5rem;
     background: #fcfcfc;
     font-size: 1rem;
-    padding: 3rem 3rem 6rem 6rem;
+    padding: 3rem 3rem 3rem 3rem;
     
   
   }
@@ -380,7 +381,7 @@ a:hover{
   .Nation{
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.08);
     background-color: #ffffff;
-    padding: 5rem;
+    padding: 3rem;
     height: 70vh;
     flex-wrap: wrap;
   }
@@ -407,7 +408,7 @@ a:hover{
   }
   .nation img{
     width: 30vw;
-    height: 30vh;
+    height: 20vh;
     text-align: center;
   }
   
@@ -421,16 +422,17 @@ a:hover{
 }
 .footer{
   background-color: #383636;
-  padding: 1rem;
-  height: 30vh;
+  padding: 2rem;
+  height: 40vh;
   width: 100vw;
+  margin: 1rem;
   
 
 }
 .footer1{
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.08);
   background-color: #f8f8f8;
-  height: 2vh;
+  height: 5vh;
   
 }
 .footer li{
@@ -455,6 +457,7 @@ a:hover{
   font-size: 0.5rem;
 }
 .copyright{
+  margin-top: 3rem;
   color: #6d6d6d;
   align-content: center;
   font-size: 0.5rem;

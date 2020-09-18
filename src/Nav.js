@@ -11,7 +11,7 @@ class nav extends Component {
     return (
       <div>
           
-          <Navbar expand="lg  icon" >
+          <Navbar expand="lg bg-light  icon" >
             <Navbar.Brand> <img src="https://kxpress.ng/img/group-38.svg" alt="img"/></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
