@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  background-color: #fff8ee;
+  height: 100vh;
+}
+.icon{
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  height: 10vh;
+}
+.icon img{
+  
+  margin-left: 10rem;
+}
+
+.connecting{
+ 
+  background-color: #fff8ee;
+  padding: 15rem;
+}
+.icon Button{
+  color: #f84ca2;
+  background: #fff8ee;
+  border-color: #f84ca2;
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+
+.body{
+  margin-left: 10rem;
+  width: 80vw;
+  columns: #353434;
+}
+.body h2{
+  color:#080808;
+}
+.body p{
+  color:#5f5d5d;
+  font-size: 1rem;
+}
+.body img{
+  width: 30vw;
+}
+.calculator{
+  border: 0.1px solid #720d42;
+    height: 100vh;
+    
+    background: #940a51;
+    outline: none;
+}
+.calc{
+  color: #fcfcfc;
+  
+   text-align: center;
+   margin-left: 2rem;
+  padding: 5rem;
+  font-size: 1rem;
+  
+    
+}
+.calculator p{
+  color:#e2ded9;
+  font-size: 0.9rem;
+}
+.calculator1{
+  margin-top: 4rem;
+  height: 50vh;
+  
+  margin-left: 10rem;
+  margin-bottom: 5rem;
+  background: #fcfcfc;
+  font-size: 1rem;
+  padding: 3rem 3rem 6rem 6rem;
+  
+
+}
+.calculator2{
+  margin-top: 4rem;
+  height: 50vh;
+  
+  margin-left: 2rem;
+  margin-bottom: 5rem;
+  background: #fcfcfc;
+  font-size: 1rem;
+  text-align: center;
+
+}
+.calculator2 h1{
+  margin-top: 5rem;
+  font-size: 2rem;
+} 
+.calculator2 p{
+  color: #3d3c3c;
+  font-size: 1rem;
+} 
+
+.alert img{
+  float: left;
+}
+.alert p{
+  font-size: 0.6rem;
+}
+.location{
+  background: #720d42;
+  height: 80vh;
+  margin-top: 0px;
+  color:#e2ded9;
+}
+.location1{
+  margin-left: 2rem;
+  padding: 5rem;
+  font-size: 1rem;
+  text-align: center;
+
+}
+.state{
+  line-height: 0.8rem;
+  font-size: 1rem;
+  
+}
+.delivery{
+  background: #f3f3f3;
+  height: 80vh;
+  margin-top: 0px;
+  columns: #252525;;
+}
+.delivery1{
+  margin-left: 2rem;
+  padding: 5rem;
+  font-size: 1rem;
+  text-align: center;
+
+}
+.images{
+  line-height: 1rem;
+  font-size: 0.8rem;
+  text-align: center;
+}
+.images img {
+  margin-left: 2rem;
+}
