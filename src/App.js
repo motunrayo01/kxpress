@@ -10,6 +10,7 @@ import Payment from './Payment';
 import Reverse from './Reverse';
 import Footer from './Footer';
 import {BrowserRouter, Route} from 'react-router-dom';
+import { InputGroup, FormControl } from 'react-bootstrap';
 
 class App extends Component {
   render() {
@@ -17,6 +18,14 @@ class App extends Component {
       <div>
         <Nav/>
         <Body/>
+        <center>
+          <InputGroup className="mb-2 mr-sm-2" style={{width:300, boxShadow:'black',top:23,}}>
+            <InputGroup.prepend>
+            <InputGroup.Text>?</InputGroup.Text>
+            </InputGroup.prepend>
+            <FormControl placeholder="Enter Tracking Number"/>
+          </InputGroup>
+        </center>
         <Calculator/>
         <Location/>
         <Delivery/>

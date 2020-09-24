@@ -12,12 +12,7 @@ class Calulator extends Component {
     return (
       <div>
         <div className="container-fluid calculator">
-        <div className="row one">
-                    <div className="col 12">
-                     < img src="https://res.cloudinary.com/morayo/image/upload/v1600466590/kxpress_bp8oja.png"  alt="fig" input type="text" />
-                    </div>
-                  </div>
-          
+        
             <div className="row">
               <div className="calc col"> 
                 <h3>Shipping Calculator</h3>
