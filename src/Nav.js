@@ -6,32 +6,30 @@ import Button from 'react-bootstrap/Button';
 
 
 
+
 class nav extends Component {
   render() {
     return (
       <div>
           
-          <Navbar expand="lg bg-deep  icon" >
-            <Navbar.Brand> <img src="https://kxpress.ng/img/group-38.svg" alt="img"/></Navbar.Brand>
-            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar expand="lg bg-deep icon" >
+            <Navbar.Brand className="logo"> <img src="https://kxpress.ng/img/group-38.svg" alt="img"/></Navbar.Brand>
             <Navbar.Collapse id="basic-navbar-nav">
                
                 <Nav className="mr-auto nav ">
-                <Nav.Link href="#home"></Nav.Link>
-                <Nav.Link href="#link">Shippinng calculator</Nav.Link>
-                <Nav.Link href="#link">Our Services</Nav.Link>
-                <Nav.Link href="#link">Api Integration</Nav.Link>
-                <Nav.Link href="#link">Our Location</Nav.Link>
                
-                 <Button >Sign up Nows</Button>
-                <Button >Sign in</Button>
-                <Nav.Brand className="brand"><Nav.Link href="#home"><img src="https://kxpress.ng/img/telephone.svg" alt="phoneicon"/> </Nav.Link></Nav.Brand>
+                <Nav.Link  className="Navs" href="#link">Shipping calculator</Nav.Link>
+                <Nav.Link className="Navs" href="#link">Our Services</Nav.Link>
+                <Nav.Link className="Navs" href="#link">Api Integration</Nav.Link>
+                <Nav.Link className="Navs" href="#link">Our Location</Nav.Link>
+               
                 </Nav>
            
-               
-              
-                
-            </Navbar.Collapse>
+               </Navbar.Collapse>
+               <Button >Sign up Nows</Button> 
+               <Button >Sign in</Button> 
+               <Nav.Link href="#home"><img src="https://kxpress.ng/img/telephone.svg" alt="phoneicon"/> </Nav.Link> 
+          
             </Navbar>
             </div>    
         

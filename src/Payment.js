@@ -16,7 +16,7 @@ class Payment extends Component {
                       <Button className="btn-light">Sign up Nows</Button>
                   </div>
                  
-                  <div className="col-4 body" >
+                  <div className="col-4 nation" >
                       
                       <img src="https://kxpress.ng/img/group-8.svg" alt="deliver" />
                   </div>

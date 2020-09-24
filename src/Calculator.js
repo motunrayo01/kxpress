@@ -204,7 +204,7 @@ class Calulator extends Component {
                             <Form.Group controlId="exampleForm.SelectCustomSizeSm">
                             <Form.Label>Weight(Kg) </Form.Label><br/>
                           
-                                        <input type="number" class="from-select" placeholder="0.000" name="weight"
+                                        <input type="number" className="from-select" placeholder="0.000" name="weight"
                                             min="0.001" max="70" required />
                            
                           </Form.Group>

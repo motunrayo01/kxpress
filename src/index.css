@@ -13,8 +13,18 @@ body {
   position: fixed;
   height: 10vh;
   width: 100vw;
+  animation-name:boxanime;
+    animation-duration:6s;
+
+    
+  }
+  @keyframes boxanime{
+    50%{
+      background-color:#F8F4E3;
+    }
+  }
   
-}
+
 .icon img{
   
   margin-left: 7rem;
@@ -23,7 +33,7 @@ body {
 .connecting{
  
   background-color: #fff8ee;
-  padding: 15rem;
+  padding: 10rem;
 }
 .icon Button{
   color: #f84ca2;
@@ -82,18 +92,19 @@ body {
   margin-top: 4rem;
   height: 50vh;
  
-  margin-left: 7rem;
+  margin-left: 3rem;
   margin-bottom: 5rem;
+  width: 50vw;
   background: #fcfcfc;
   font-size: 1rem;
-  padding: 3rem 3rem 6rem 6rem;
+  padding: 3rem 3rem 3rem 3rem;
   
 
 }
 .calculator2{
   margin-top: 4rem;
   height: 50vh;
-  
+  width: 30vw;
   margin-left: 2rem;
   margin-bottom: 5rem;
   background: #fcfcfc;
@@ -163,12 +174,12 @@ form.control{
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.08);
   background-color: #f7f4f4;
   padding: 5rem;
-  height: 50vh;
+  height: 80vh;
 }
 .nation{
-  margin-left: 7rem;
+  margin-left: 5rem;
   width: 80vw;
-  columns: #353434;
+  color: #353434;
 }
 .Nation Button{
   color: #f84ca2;
@@ -239,31 +250,55 @@ a:hover{
 }
 
 @media only screen and (max-width:500px){
-  .icon{
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: #fff8ee;
+   
+  }
+  .nav-link{
+    display: inline;
+  }
+  .navbar-nav .Navs.nav-link {
+    display: none;
+    padding: 0rem;
+  }
+  .navbar-nav  img{
+   float: right;
   
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+  }
+  .icon{
     position: fixed;
-    height: 10vh;
   }
   .icon img{
+    width: 7vw;
+    margin-left: 0rem;
     
-    margin-left: 2rem;
   }
   
   .connecting{
    
     background-color: #fff8ee;
-    padding: 5rem;
+    padding: 4rem;
+    
+  }
+  .nav{
+    width: 70vw;
   }
   .icon Button{
     color: #f84ca2;
     background: #fff8ee;
     border-color: #f84ca2;
-    margin-right: 2rem;
-    margin-left: 2rem;
+    margin-right: 1rem;
+    margin-left: 0rem;
+    font-size: 0.3rem;
+    
+    display: inline;
+    
   }
+ 
   .body{
     margin-left: 2rem;
    
@@ -276,6 +311,7 @@ a:hover{
   }
   .body img{
     width: 30vw;
+    display: none;
   }
   .calculator{
     border: 0.1px solid #720d42;
@@ -300,13 +336,14 @@ a:hover{
   }
   .calculator1{
     margin-top: 1rem;
-    height: 60vh;
+    height: 70vh;
     margin-left: 2rem;
     margin-right: 2rem;
     margin-bottom: 5rem;
     background: #fcfcfc;
     font-size: 1rem;
-    padding: 3rem 3rem 3rem 3rem;
+    padding: 2rem;
+    width: 80vw;
     
   
   }
@@ -319,6 +356,7 @@ a:hover{
     background: #fcfcfc;
     font-size: 1rem;
     text-align: center;
+    width: 80vw;
   
   }
   .calculator2 h1{
@@ -338,7 +376,7 @@ a:hover{
   }
   .location{
     background: #720d42;
-    height: 100vh;
+    height: 120vh;
     margin-top: 0px;
     color:#e2ded9;
   }
@@ -356,7 +394,7 @@ a:hover{
   }
   .delivery{
     background: #ffffff;
-    height: 150vh;
+    height: 170vh;
     margin-top: 1px;
     color: #252525;;
   }
@@ -364,7 +402,7 @@ a:hover{
     line-height: 1rem;
     font-size: 0.5rem;
     text-align: center;
-    margin-top: 3rem;
+    
     
   }
   .images{
@@ -375,14 +413,14 @@ a:hover{
   }
   .images img {
  
-    margin-top: 3rem;
+    margin-top: 1rem;
   }
   
   .Nation{
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.08);
     background-color: #ffffff;
     padding: 3rem;
-    height: 70vh;
+    height: 80vh;
     flex-wrap: wrap;
   }
   .nation{
@@ -417,15 +455,15 @@ a:hover{
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.08);
   background-color: #f8f8f8;
  
-  height: 5vh;
+  height: 9vh;
   
 }
 .footer{
   background-color: #383636;
   padding: 2rem;
-  height: 30vh;
+  height: 45vh;
   width: 100vw;
-  
+  margin: 0rem;
   
 
 }
@@ -466,7 +504,7 @@ a:hover{
   font-size: 0.5rem;
 }
 .copyright{
-  margin-top: 3rem;
+  margin-top: 0rem;
   color: #6d6d6d;
   align-content: center;
   font-size: 0.5rem;
