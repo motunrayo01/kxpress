@@ -22,7 +22,7 @@ body {
   width: 100vw;
   box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.08);
   animation-name:boxanime;
-    animation-duration:10s;
+    animation-duration:5s;
 
     
   }
@@ -232,6 +232,13 @@ form.control{
   margin-left: 0rem;
   
 }
+.socialicon img{
+  width: 3vw;
+  height: 3vh;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
 
 .footer a{
   text-decoration: none;
@@ -255,6 +262,7 @@ a:hover{
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-top: 3rem;
 }
 
 @media only screen and (max-width:500px){
