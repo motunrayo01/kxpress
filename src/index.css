@@ -14,19 +14,20 @@ body {
   height: 10vh;
   width: 100%;
   background-color: #fff;
+  opacity: 1;
   top: 0;
   left: 0;
 
   height: 10vh;
   width: 100vw;
   animation-name:boxanime;
-    animation-duration:6s;
+    animation-duration:10s;
 
     
   }
   @keyframes boxanime{
     50%{
-      background-color:#F8F4E3;
+      background-color:#fff8ee;
     }
   }
   
@@ -226,7 +227,7 @@ form.control{
   color:#e2ded9;
   font-size: 0.5rem;
   margin: 0rem;
-  padding: 1rem;
+  padding: 0rem;
   margin-left: 0rem;
   
 }
