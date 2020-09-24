@@ -12,6 +12,12 @@ body {
   justify-content: space-between;
   position: fixed;
   height: 10vh;
+  width: 100%;
+  background-color: #fff;
+  top: 0;
+  left: 0;
+
+  height: 10vh;
   width: 100vw;
   animation-name:boxanime;
     animation-duration:6s;
