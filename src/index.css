@@ -14,12 +14,13 @@ body {
   height: 10vh;
   width: 100%;
   background-color: #fff;
-  opacity: 1;
+  
   top: 0;
   left: 0;
 
   height: 10vh;
   width: 100vw;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.08);
   animation-name:boxanime;
     animation-duration:10s;
 
